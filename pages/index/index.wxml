@@ -1,0 +1,1 @@
+<button bindtap="goToMenu">进入菜单</button>

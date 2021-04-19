@@ -1,0 +1,4 @@
+<button bindtap="goToPosters">海报</button>
+<button>文案</button>
+<button>ppt</button>
+<button>图标</button>

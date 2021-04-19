@@ -1,4 +1,4 @@
-// pages/demo01/demo01.js
+// pages/menu/menu.js
 Page({
 
   /**
@@ -14,6 +14,13 @@ Page({
   onLoad: function (options) {
 
   },
+
+    //跳转至菜单
+    goToPosters:function(){
+      wx.navigateTo({
+        url: '/pages/posters/posters',
+      })
+    },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

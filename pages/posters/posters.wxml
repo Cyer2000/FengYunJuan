@@ -1,0 +1,4 @@
+
+  <view class="img" catchtouchstart="touchstartCallback"  catchtouchmove="touchmoveCallback" catchtouchend="touchendCallback"  >
+    <image style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}});" src="../../1.jpg"></image>
+  </view>
